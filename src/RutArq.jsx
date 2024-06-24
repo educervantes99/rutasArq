@@ -1,5 +1,5 @@
 
-import { useEffect } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Graph from "graphology";
 import {  SigmaContainer, 
@@ -14,12 +14,15 @@ import "@react-sigma/core/lib/react-sigma.min.css";
 
 import {positions} from "./utils/grafo";
 import {arcos} from "./utils/arcos";
-// import {ggP} from "./utils/handles/Graphology";
+import {Inputs} from './components/Inputs/Inputs';
+import {Route} from './components/Route/Route';
 import './App.css'
 
 const sigmaStyle = { 
-  height: "400px", 
-  width: "950px",
+  // height: "530px", 
+  // width: "1200px",
+  height: "390px", 
+  width: "1000px",
   border: "2px solid black",
   backgroundRepeat: "no-repeat",
   backgroundSize: "1100px 500px"
@@ -29,11 +32,8 @@ const sigmaStyle = {
 export const LoadGraph = () => {
 
   const navigate = useNavigate();
-
-  // ggP(); //graphology
   const loadGraph = useLoadGraph();
   const registerEvents = useRegisterEvents();
-
 
   useEffect(() => {
     const graph = new Graph();
@@ -43,7 +43,7 @@ export const LoadGraph = () => {
     }
 
     for (let index = 0; index < arcos.length; index++) {
-      graph.addEdge(arcos[index].o, arcos[index].d, { size: 1, color: "grey" });
+      graph.addEdge(arcos[index].o, arcos[index].d, { label: arcos[index].w ?? 'unknown', size: 1, color: "grey" });
     }
     
     
@@ -69,16 +69,42 @@ export const LoadGraph = () => {
     });
   }, [registerEvents, navigate])
 
+
+
   return null;
+
 };
 
 // Component that display the graph
 export const RutArq = () => {
+
+  const [aRoute, setARoute] = useState([]);
+  const res = (a) => { setARoute(a) };
+
+  const settings = useMemo(
+    () => ({
+      allowInvalidContainer: true,
+      renderEdgeLabels: true,
+      
+    }),
+    [],
+  );
+
+  useEffect(() => {
+
+    if (aRoute.length < 1) {
+      setARoute(localStorage.getItem('route').split(','))
+    }
+
+  }, [aRoute])
+  
+
   return (
     <div>
       <h1 style={{textAlign: 'center'}}>Dijkstra Archaeological Routes</h1>
+      <Inputs answer={res}/>
       <div className="grafoContainer" style={{left: '50%', position: 'absolute', transform: 'translate(-50%, 0)'}}>
-        <SigmaContainer style={sigmaStyle}>
+        <SigmaContainer style={sigmaStyle} settings={settings}>
           <LoadGraph />
           <ControlsContainer position={"bottom-right"}>
           <ZoomControl />
@@ -87,7 +113,8 @@ export const RutArq = () => {
           <ControlsContainer position={"top-right"}>
           </ControlsContainer>
         </SigmaContainer>
-      </div>
+      </div>            
+      <Route route={aRoute}/>
     </div>
   );
 };

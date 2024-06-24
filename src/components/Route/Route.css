@@ -1,0 +1,39 @@
+.routeContainer {
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 65px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* background-color: #e5e2dc; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+.sitesRoute { 
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.siteRoute { 
+    margin: 10px 18px;
+    display: grid;
+    text-decoration: none;
+    color: black;
+}
+
+.siteRoute p{
+    margin-top: 0;
+    font-size: 8px;
+    text-align: center;
+}
+
+.piramide {
+    width: 30px;
+    border-radius: 50px;
+}

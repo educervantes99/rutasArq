@@ -1,25 +1,25 @@
 
 import Graph from 'graphology';
 import dijkstra from 'graphology-shortest-path/dijkstra';
+import {arcos, nodos} from '../arcos'
 
 
-export const ggP = ()=> {
+export const ggP = (origen, destino)=> {
 
     const graph = new Graph();
     
     
     // Adding some nodes
-    graph.addNode('John');
-    graph.addNode('Martha');
-    graph.addNode('Jule');
-    graph.addNode('Mike');
+    for (let index = 0; index < nodos.length; index++) {
+        graph.addNode(nodos[index]);        
+    }
     
     // Adding an edge
-    graph.addEdge('John', 'Martha', {weight: 3});
-    graph.addEdge('John', 'Jule', {weight: 1});
-    graph.addEdge('Martha', 'Mike', {weight: 3});
-    graph.addEdge('Jule', 'Mike', {weight: 1});
-    
+
+    for (let i = 0; i < arcos.length; i++) {
+        graph.addEdge(arcos[i].o,arcos[i].d, {weight: arcos[i].w});
+        
+    }
     // // Displaying useful information about your graph
     // console.log('Number of nodes', graph.order);
     // console.log('Number of edges', graph.size);
@@ -29,7 +29,7 @@ export const ggP = ()=> {
     //   console.log(node);
     // });
 
-    const path = dijkstra.bidirectional(graph, 'John', 'Mike');
-    console.log(path)
-
+    const path = dijkstra.bidirectional(graph, origen, destino);
+    console.log('aaaaa', path)
+    return path;
     }

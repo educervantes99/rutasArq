@@ -1,0 +1,62 @@
+.inputContainer {
+    width: 150px;
+    /* height: 100px; */
+    background: #e5e2dc;
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 12px;
+
+}
+
+.inputSelect {
+    display: block;
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+
+/* CSS */
+.inputsButton {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  align-items: center;
+  background-color: #333;
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.inputsButton:hover,
+.inputsButton:focus { 
+  background-color: #474747;
+  color: #ffffff;
+}
+

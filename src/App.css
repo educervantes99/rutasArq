@@ -22,6 +22,10 @@
     background-color: #fffaef;
 }
 
+h1{
+  font-size: 1.6rem;
+}
+
 .siteContainer{
   padding: 2rem;
 }

@@ -1,7 +1,7 @@
 export const sites = [
     {
       "0": "",
-      "id": "2-1",
+      "id": "Baja California-1",
       "consecutivo": 1,
       "estado": "Baja California",
       "nombre": "Z.A. de El Vallecito",
@@ -15,7 +15,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "3-1",
+      "id": "BC Sur-1",
       "consecutivo": 2,
       "estado": "Baja California Sur",
       "nombre": "Z.A. de San Francisco de la Sierra",
@@ -267,7 +267,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-1",
+      "id": "Chiapas-1",
       "consecutivo": 20,
       "estado": "Chiapas",
       "nombre": "Z.A. de Bonampak",
@@ -281,7 +281,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-2",
+      "id": "Chiapas-2",
       "consecutivo": 21,
       "estado": "Chiapas",
       "nombre": "Z.A. de Chincultic",
@@ -295,7 +295,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-3",
+      "id": "Chiapas-3",
       "consecutivo": 22,
       "estado": "Chiapas",
       "nombre": "Z.A. de Izapa",
@@ -309,7 +309,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-4",
+      "id": "Chiapas-4",
       "consecutivo": 23,
       "estado": "Chiapas",
       "nombre": "Z.A. de Palenque con museo \"Alberto Ruz LÂ´Huiller",
@@ -323,7 +323,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-5",
+      "id": "Chiapas-5",
       "consecutivo": 24,
       "estado": "Chiapas",
       "nombre": "Z.A. de Tenam Puente",
@@ -337,7 +337,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-6",
+      "id": "Chiapas-6",
       "consecutivo": 25,
       "estado": "Chiapas",
       "nombre": "Z.A. de Toniná",
@@ -351,7 +351,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-7",
+      "id": "Chiapas-7",
       "consecutivo": 26,
       "estado": "Chiapas",
       "nombre": "Z.A. de Yaxchilán",
@@ -365,7 +365,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-8",
+      "id": "Chiapas-8",
       "consecutivo": 27,
       "estado": "Chiapas",
       "nombre": "Z.A. de Chiapa de Corzo",
@@ -379,7 +379,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-9",
+      "id": "Chiapas-9",
       "consecutivo": 28,
       "estado": "Chiapas",
       "nombre": "Z.A de Lagartero",
@@ -393,7 +393,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "23-10",
+      "id": "Chiapas-10",
       "consecutivo": 29,
       "estado": "Chiapas",
       "nombre": "Z.A. de Iglesia Vieja",
@@ -407,7 +407,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "5-1",
+      "id": "Chihuahua-1",
       "consecutivo": 30,
       "estado": "Chihuahua",
       "nombre": "Z.A. de Paquimé con Museo de las Culturas del Norte",
@@ -421,7 +421,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "5-2",
+      "id": "Chihuahua-2",
       "consecutivo": 31,
       "estado": "Chihuahua",
       "nombre": "Z.A. de Cuarenta Casas",
@@ -435,7 +435,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "5-3",
+      "id": "Chihuahua-3",
       "consecutivo": 32,
       "estado": "Chihuahua",
       "nombre": "Z.A. de Cueva de la Olla",
@@ -449,7 +449,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "5-4",
+      "id": "Chihuahua-4",
       "consecutivo": 33,
       "estado": "Chihuahua",
       "nombre": "Z.A. de Cueva Grande",
@@ -463,7 +463,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "5-5",
+      "id": "Chihuahua-5",
       "consecutivo": 34,
       "estado": "Chihuahua",
       "nombre": "Z.A. de Huapoca",
@@ -547,7 +547,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "6-1",
+      "id": "Coahuila-1",
       "consecutivo": 40,
       "estado": "Coahuila",
       "nombre": "Z.P. Rincón Colorado",
@@ -561,7 +561,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "28-1",
+      "id": "Colima-1",
       "consecutivo": 41,
       "estado": "Colima",
       "nombre": "Z.A. de El Chanal",
@@ -575,7 +575,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "28-2",
+      "id": "Colima-2",
       "consecutivo": 42,
       "estado": "Colima",
       "nombre": "Z.A. de La Campana",
@@ -589,7 +589,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "10-1",
+      "id": "Durango-1",
       "consecutivo": 43,
       "estado": "Durango",
       "nombre": "Z.A. de La Ferrería con museo de sitio",
@@ -855,7 +855,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "15-1",
+      "id": "Guanajuato-1",
       "consecutivo": 63,
       "estado": "Guanajuato",
       "nombre": "Z.A. de Plazuelas",
@@ -869,7 +869,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "15-2",
+      "id": "Guanajuato-2",
       "consecutivo": 64,
       "estado": "Guanajuato",
       "nombre": "Z.A. de Peralta",
@@ -883,7 +883,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "15-3",
+      "id": "Guanajuato-3",
       "consecutivo": 65,
       "estado": "Guanajuato",
       "nombre": "Z.A. de Cañada de la Virgen",
@@ -897,7 +897,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "15-4",
+      "id": "Guanajuato-4",
       "consecutivo": 66,
       "estado": "Guanajuato",
       "nombre": "Z.A El Cóporo",
@@ -911,7 +911,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "15-5",
+      "id": "Guanajuato-5",
       "consecutivo": 68,
       "estado": "Guanajuato",
       "nombre": "Z.A. Arroyo Seco",
@@ -925,7 +925,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-1",
+      "id": "Guerrero-1",
       "consecutivo": 69,
       "estado": "Guerrero",
       "nombre": "Z.A. de Huamuxtitlán",
@@ -939,7 +939,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-2",
+      "id": "Guerrero-2",
       "consecutivo": 70,
       "estado": "Guerrero",
       "nombre": "Z.A. de Ixcateopan",
@@ -953,7 +953,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-3",
+      "id": "Guerrero-3",
       "consecutivo": 71,
       "estado": "Guerrero",
       "nombre": "Z.A. de La Organera Xochipala",
@@ -967,7 +967,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-4",
+      "id": "Guerrero-4",
       "consecutivo": 72,
       "estado": "Guerrero",
       "nombre": "Z.A. de La Sabana",
@@ -981,7 +981,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-5",
+      "id": "Guerrero-5",
       "consecutivo": 73,
       "estado": "Guerrero",
       "nombre": "Z.A. de Cuetlajuchitlán (Los Querende)",
@@ -995,7 +995,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-6",
+      "id": "Guerrero-6",
       "consecutivo": 74,
       "estado": "Guerrero",
       "nombre": "Z.A. de Palma Sola",
@@ -1009,7 +1009,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-7",
+      "id": "Guerrero-7",
       "consecutivo": 76,
       "estado": "Guerrero",
       "nombre": "Z.A. de Los Tepoltzis",
@@ -1023,7 +1023,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-8",
+      "id": "Guerrero-8",
       "consecutivo": 77,
       "estado": "Guerrero",
       "nombre": "Z.A. de Teopantecuanitlán",
@@ -1037,7 +1037,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-9",
+      "id": "Guerrero-9",
       "consecutivo": 78,
       "estado": "Guerrero",
       "nombre": "Z.A. de Tehuacalco",
@@ -1051,7 +1051,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "21-10",
+      "id": "Guerrero-10",
       "consecutivo": 79,
       "estado": "Guerrero",
       "nombre": "Z. A. Soledad de Maciel",
@@ -1065,7 +1065,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "17-1",
+      "id": "Hidalgo-1",
       "consecutivo": 80,
       "estado": "Hidalgo",
       "nombre": "Z.A. de Huapalcalco",
@@ -1079,7 +1079,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "17-2",
+      "id": "Hidalgo-2",
       "consecutivo": 81,
       "estado": "Hidalgo",
       "nombre": "Z.A. de Tepeapulco o Xihuingo",
@@ -1093,7 +1093,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "17-3",
+      "id": "Hidalgo-3",
       "consecutivo": 82,
       "estado": "Hidalgo",
       "nombre": "Z.A. de Tula con museo de sitio",
@@ -1107,7 +1107,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "17-4",
+      "id": "Hidalgo-4",
       "consecutivo": 83,
       "estado": "Hidalgo",
       "nombre": "Z.A Pahñú",
@@ -1121,7 +1121,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "14-1",
+      "id": "Jalisco-1",
       "consecutivo": 84,
       "estado": "Jalisco",
       "nombre": "Z.A. de Ixtépete",
@@ -1135,7 +1135,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "14-2",
+      "id": "Jalisco-2",
       "consecutivo": 85,
       "estado": "Jalisco",
       "nombre": "Z.A. de El Grillo",
@@ -1149,7 +1149,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "14-3",
+      "id": "Jalisco-3",
       "consecutivo": 86,
       "estado": "Jalisco",
       "nombre": "Z.A. de Teuchitlán",
@@ -1163,9 +1163,9 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-1",
+      "id": "Michoacan-1",
       "consecutivo": 87,
-      "estado": "MichoacÃ¡n",
+      "estado": "Michoacan",
       "nombre": "Z.A. de Huandacareo o La Nopalera",
       "ubicacion_fisica": "Calle Camino a Zona arqueolÃ³gica s/n, Colonia La Nopalera C.P. 58820,  Huandacareo, Municipio de Huandacareo, MichoacÃ¡n. Entronque al camino con el Km 16 + 500 de la Carretera No. 27 (Cuitzeo-PuruÃ¡ndiro)",
       "condiciÃ³n": "Abierta",
@@ -1177,7 +1177,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-2",
+      "id": "Michoacan-2",
       "consecutivo": 88,
       "estado": "MichoacÃ¡n",
       "nombre": "Z.A. de Ihuatzio",
@@ -1191,7 +1191,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-3",
+      "id": "Michoacan-3",
       "consecutivo": 89,
       "estado": "MichoacÃ¡n",
       "nombre": "Z.A. de San Felipe los Alzati",
@@ -1205,7 +1205,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-4",
+      "id": "Michoacan-4",
       "consecutivo": 90,
       "estado": "MichoacÃ¡n",
       "nombre": "Z.A. de Tingambato",
@@ -1219,7 +1219,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-5",
+      "id": "Michoacan-5",
       "consecutivo": 91,
       "estado": "MichoacÃ¡n",
       "nombre": "Z.A. de Tres Cerritos",
@@ -1233,7 +1233,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "19-6",
+      "id": "Michoacan-6",
       "consecutivo": 92,
       "estado": "MichoacÃ¡n",
       "nombre": "Z.A. de Tzintzuntzan con museo de sitio",
@@ -1359,7 +1359,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "13-1",
+      "id": "Nayarit-1",
       "consecutivo": 101,
       "estado": "Nayarit",
       "nombre": "Z.A. de Ixtlán del RÃ­o",
@@ -1373,7 +1373,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "7-1",
+      "id": "Nuevo Leon-1",
       "consecutivo": 102,
       "estado": "Nuevo Leon",
       "nombre": "Z.A. de Boca de Potrerillos",
@@ -1555,7 +1555,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-1",
+      "id": "Puebla-1",
       "consecutivo": 115,
       "estado": "Puebla",
       "nombre": "Z.A. de Cantona",
@@ -1569,7 +1569,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-2",
+      "id": "Puebla-2",
       "consecutivo": 116,
       "estado": "Puebla",
       "nombre": "Z.A. de Cholula con museo de sitio",
@@ -1583,7 +1583,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-3",
+      "id": "Puebla-3",
       "consecutivo": 117,
       "estado": "Puebla",
       "nombre": "Z.A. de Los Cerritos de San Cristóbal Tepatlaxco",
@@ -1597,7 +1597,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-4",
+      "id": "Puebla-4",
       "consecutivo": 118,
       "estado": "Puebla",
       "nombre": "Z.A. Teteles de Santo Nombre",
@@ -1611,7 +1611,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-5",
+      "id": "Puebla-5",
       "consecutivo": 119,
       "estado": "Puebla",
       "nombre": "Z.A. de Tepapayeca",
@@ -1625,7 +1625,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-6",
+      "id": "Puebla-6",
       "consecutivo": 120,
       "estado": "Puebla",
       "nombre": "Z.A. de Tehuacán el Viejo",
@@ -1639,7 +1639,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-7",
+      "id": "Puebla-7",
       "consecutivo": 121,
       "estado": "Puebla",
       "nombre": "Z.A. de Tepexi el Viejo",
@@ -1653,7 +1653,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "33-8",
+      "id": "Puebla-8",
       "consecutivo": 122,
       "estado": "Puebla",
       "nombre": "Z.A. de Yohualichan",
@@ -1723,7 +1723,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-1",
+      "id": "Quintana Roo-1",
       "consecutivo": 129,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Cobá",
@@ -1737,7 +1737,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-2",
+      "id": "Quintana Roo-2",
       "consecutivo": 130,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Chacchoben",
@@ -1751,7 +1751,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-3",
+      "id": "Quintana Roo-3",
       "consecutivo": 132,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Dzibanché",
@@ -1765,7 +1765,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-4",
+      "id": "Quintana Roo-4",
       "consecutivo": 133,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de El Meco",
@@ -1779,7 +1779,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-5",
+      "id": "Quintana Roo-5",
       "consecutivo": 134,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de El Rey",
@@ -1793,7 +1793,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-6",
+      "id": "Quintana Roo-6",
       "consecutivo": 136,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Kinichná",
@@ -1807,7 +1807,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-7",
+      "id": "Quintana Roo-7",
       "consecutivo": 137,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Kohunlich",
@@ -1821,7 +1821,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-8",
+      "id": "Quintana Roo-8",
       "consecutivo": 138,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Muyil",
@@ -1835,7 +1835,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-9",
+      "id": "Quintana Roo-9",
       "consecutivo": 139,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Oxtankah",
@@ -1849,7 +1849,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-10",
+      "id": "Quintana Roo-10",
       "consecutivo": 141,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de San Gervasio",
@@ -1863,7 +1863,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-11",
+      "id": "Quintana Roo-11",
       "consecutivo": 142,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de San Miguelito",
@@ -1877,7 +1877,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-12",
+      "id": "Quintana Roo-12",
       "consecutivo": 143,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Tulum-Tancah",
@@ -1891,7 +1891,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-13",
+      "id": "Quintana Roo-13",
       "consecutivo": 144,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Xcaret",
@@ -1905,7 +1905,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "25-14",
+      "id": "Quintana Roo-14",
       "consecutivo": 145,
       "estado": "Quintana Roo",
       "nombre": "Z.A. de Xelhá",
@@ -1919,7 +1919,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "12-1",
+      "id": "San Luis-1",
       "consecutivo": 146,
       "estado": "San Luis Potosi",
       "nombre": "Z.A. de Tamohi (El Consuelo)",
@@ -1933,7 +1933,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "12-2",
+      "id": "San Luis-2",
       "consecutivo": 147,
       "estado": "San Luis Potosi­",
       "nombre": "Z.A. de Tamtoc",
@@ -1947,7 +1947,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "9-1",
+      "id": "Sinaloa-1",
       "consecutivo": 148,
       "estado": "Sinaloa",
       "nombre": "Las Labradas",
@@ -1961,7 +1961,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "4-1",
+      "id": "Sonora-1",
       "consecutivo": 149,
       "estado": "Sonora",
       "nombre": "Z.A. de Cerro de las Trincheras",
@@ -1975,7 +1975,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "24-1",
+      "id": "Tabasco-1",
       "consecutivo": 150,
       "estado": "Tabasco",
       "nombre": "Z.A. de Comalcalco con museo de sitio",
@@ -1989,7 +1989,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "24-2",
+      "id": "Tabasco-2",
       "consecutivo": 151,
       "estado": "Tabasco",
       "nombre": "Z.A. de La Venta con museo de sitio",
@@ -2003,7 +2003,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "24-3",
+      "id": "Tabasco-3",
       "consecutivo": 152,
       "estado": "Tabasco",
       "nombre": "Z.A. de Pomoná con museo de sitio",
@@ -2017,7 +2017,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "24-4",
+      "id": "Tabasco-4",
       "consecutivo": 153,
       "estado": "Tabasco",
       "nombre": "Z.A. de Malpasito",
@@ -2031,7 +2031,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "24-5",
+      "id": "Tabasco-5",
       "consecutivo": 154,
       "estado": "Tabasco",
       "nombre": "Z.A. de Moral-Reforma",
@@ -2045,7 +2045,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "8-1",
+      "id": "Tamaulipas-1",
       "consecutivo": 156,
       "estado": "Tamaulipas",
       "nombre": "Z.A. de El Sabinito",
@@ -2059,7 +2059,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "8-2",
+      "id": "Tamaulipas-2",
       "consecutivo": 157,
       "estado": "Tamaulipas",
       "nombre": "Z.A. de Las Flores",
@@ -2073,7 +2073,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "8-3",
+      "id": "Tamaulipas-3",
       "consecutivo": 158,
       "estado": "Tamaulipas",
       "nombre": "Z.A. de Balcón de Montezuma",
@@ -2129,7 +2129,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-1",
+      "id": "Veracruz-1",
       "consecutivo": 164,
       "estado": "Veracruz",
       "nombre": "Z.A. de Castillo de Teayo con museo de sitio",
@@ -2143,7 +2143,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-2",
+      "id": "Veracruz-2",
       "consecutivo": 165,
       "estado": "Veracruz",
       "nombre": "Z.A. de Cempoala con museo de sitio",
@@ -2157,7 +2157,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-3",
+      "id": "Veracruz-3",
       "consecutivo": 166,
       "estado": "Veracruz",
       "nombre": "Z.A. de Las Higueras con museo de sitio",
@@ -2171,7 +2171,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-4",
+      "id": "Veracruz-4",
       "consecutivo": 167,
       "estado": "Veracruz",
       "nombre": "Z.A. de San Lorenzo Tenochtitlan con museo de sitio",
@@ -2185,7 +2185,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-5",
+      "id": "Veracruz-5",
       "consecutivo": 168,
       "estado": "Veracruz",
       "nombre": "Z.A. de El Tajín",
@@ -2199,7 +2199,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-6",
+      "id": "Veracruz-6",
       "consecutivo": 169,
       "estado": "Veracruz",
       "nombre": "Z.A. de El Zapotal",
@@ -2213,7 +2213,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-7",
+      "id": "Veracruz-7",
       "consecutivo": 171,
       "estado": "Veracruz",
       "nombre": "Z.A. de Vega de la Peña",
@@ -2227,7 +2227,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-8",
+      "id": "Veracruz-8",
       "consecutivo": 172,
       "estado": "Veracruz",
       "nombre": "Z.A. de Quiahuiztlán",
@@ -2241,7 +2241,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-9",
+      "id": "Veracruz-9",
       "consecutivo": 173,
       "estado": "Veracruz",
       "nombre": "Z.A. de Cuajilote",
@@ -2255,7 +2255,7 @@ export const sites = [
     },
     {
       "0": "",
-      "id": "18-10",
+      "id": "Veracruz-10",
       "consecutivo": 174,
       "estado": "Veracruz",
       "nombre": "Z.A. de Cuyuxquihui",
