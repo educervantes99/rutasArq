@@ -37,3 +37,31 @@
     width: 30px;
     border-radius: 50px;
 }
+
+.piramide:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 950px) {
+    .sitesRoute{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .routeContainer {
+        height: 120px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .sitesRoute{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .routeContainer {
+        height: 180px;
+    }
+}

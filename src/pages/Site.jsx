@@ -4,10 +4,7 @@ import { useFetchSiteById } from '../hooks/useFetchSiteById';
 export const Site = () => {
 
     const { id } = useParams();
-    const { site, isLoading } = useFetchSiteById(id);
-
-    console.log('hey', site)
-    console.log('is', isLoading)
+    const { site } = useFetchSiteById(id);
 
     return (
       <div className='siteContainer'>

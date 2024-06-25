@@ -1,5 +1,5 @@
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Graph from "graphology";
 import {  SigmaContainer, 
@@ -17,16 +17,6 @@ import {arcos} from "./utils/arcos";
 import {Inputs} from './components/Inputs/Inputs';
 import {Route} from './components/Route/Route';
 import './App.css'
-
-const sigmaStyle = { 
-  // height: "530px", 
-  // width: "1200px",
-  height: "390px", 
-  width: "1000px",
-  border: "2px solid black",
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "1100px 500px"
-};
 
 // Component that load the graph
 export const LoadGraph = () => {
@@ -77,6 +67,23 @@ export const LoadGraph = () => {
 
 // Component that display the graph
 export const RutArq = () => {
+  
+
+  const [windowSize, setWindowSize] = useState([
+    window.innerHeight,
+    window.innerWidth,
+  ]);
+
+
+  const sigmaStyle = { 
+    // height: "530px", 
+    // width: "1200px",
+    height: "390px", 
+    width: `${windowSize[1] - (windowSize[1] / 10)}px`,
+    border: "2px solid black",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "1100px 500px"
+  };
 
   const [aRoute, setARoute] = useState([]);
   const res = (a) => { setARoute(a) };
@@ -91,9 +98,22 @@ export const RutArq = () => {
   );
 
   useEffect(() => {
+    const windowSizeHandler = () => {
+      setWindowSize([window.innerWidth, window.innerHeight]);
+    };
+    window.addEventListener("resize", windowSizeHandler);
 
-    if (aRoute.length < 1) {
-      setARoute(localStorage.getItem('route').split(','))
+    return () => {
+      window.removeEventListener("resize", windowSizeHandler);
+    };
+  }, [windowSize]);
+
+
+
+  useEffect(() => {
+
+    if (aRoute?.length < 1) {
+      setARoute(localStorage.getItem('route')?.split(','))
     }
 
   }, [aRoute])
@@ -110,8 +130,7 @@ export const RutArq = () => {
           <ZoomControl />
           <FullScreenControl />
           </ControlsContainer>
-          <ControlsContainer position={"top-right"}>
-          </ControlsContainer>
+          <ControlsContainer position={"top-right"}></ControlsContainer>
         </SigmaContainer>
       </div>            
       <Route route={aRoute}/>

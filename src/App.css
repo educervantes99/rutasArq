@@ -7,8 +7,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  /* background-color: #cc7900; */
-  /* max-width: 1280px; */
   margin: 0 auto;
   position: relative;
   
@@ -18,7 +16,6 @@
     position: relative;
     padding: 0;
     margin: 0;
-    /* background-color: #cccccc; */
     background-color: #fffaef;
 }
 
@@ -26,8 +23,9 @@ h1{
   font-size: 1.6rem;
 }
 
+
 .siteContainer{
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .siteName{
@@ -36,9 +34,9 @@ h1{
 
 .siteContent {
   display: flex;
-  display: flex;
   background-color: #e5e2dc;
   border-radius: 50px;
+  position: relative;
 }
 
 .siteContentImage {
@@ -68,4 +66,58 @@ iframe {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.aboutContentInfo {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: larger;
+  po
+}
+
+.aboutIt {
+  display: flex;
+  position: relative;
+}
+
+.itzamna { 
+  width: 30%;
+  height:min-content;
+}
+
+.eduardo {
+  width: 10%;
+  border-radius: 50px;
+}
+
+.aboutLink, .aboutLink:visited {
+  color: brown;
+}
+
+@media (max-width: 800px ) {
+
+  .siteContent {
+    display: block;
+  }
+
+  .siteContentImage {
+    width: 100% !important;
+    }
+  .siteImage {
+      width: 100% !important;
+      padding: 0 !important;
+    }
+
+  .aboutIt {
+    display: block !important;
+    position: relative !important;
+  }
+    
+  .itzamna { 
+    position: relative;
+    width: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%) !important;
+    height:min-content;
+  }
 }
