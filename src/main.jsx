@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import {RutArq} from './RutArq';
+import {App} from './App';
 import  {About}  from './pages/About';
 import { Nav } from "./components/Nav/Nav";
 import {Site} from './pages/Site';
@@ -14,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Nav />
         <div className='maincontent'>
         <Routes>
-          <Route path='/' element={<RutArq />} />
+          <Route path='/' element={<App />} />
           <Route path='/site/:id' element={<Site />} />
           <Route path='/state/:id' element={<State />} />  
           <Route path='/about' element={<About />} />          

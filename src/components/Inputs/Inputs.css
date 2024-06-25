@@ -60,3 +60,21 @@
   color: #ffffff;
 }
 
+@media (max-width: 400px) {
+
+  .inputContainer {
+    width: 150px;
+    /* height: 100px; */
+    top: 80px;
+    right: 10px;
+    font-size: 10px;
+
+  }
+
+  .inputsButton {
+    font-size: 10px;
+    min-height: 30px;
+    min-width: 30px;
+  }
+ 
+}

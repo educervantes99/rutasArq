@@ -1,5 +1,4 @@
-
-import { useEffect, useMemo, useState, useRef } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Graph from "graphology";
 import {  SigmaContainer, 
@@ -59,27 +58,16 @@ export const LoadGraph = () => {
     });
   }, [registerEvents, navigate])
 
-
-
   return null;
 
 };
 
 // Component that display the graph
-export const RutArq = () => {
-  
-
-  const [windowSize, setWindowSize] = useState([
-    window.innerHeight,
-    window.innerWidth,
-  ]);
-
+export const RutArq = ({width, height}) => {
 
   const sigmaStyle = { 
-    // height: "530px", 
-    // width: "1200px",
-    height: "390px", 
-    width: `${windowSize[1] - (windowSize[1] / 10)}px`,
+    height: `${height - height/2.5}px `, 
+    width: `${width - width/15}px `,
     border: "2px solid black",
     backgroundRepeat: "no-repeat",
     backgroundSize: "1100px 500px"
@@ -98,19 +86,6 @@ export const RutArq = () => {
   );
 
   useEffect(() => {
-    const windowSizeHandler = () => {
-      setWindowSize([window.innerWidth, window.innerHeight]);
-    };
-    window.addEventListener("resize", windowSizeHandler);
-
-    return () => {
-      window.removeEventListener("resize", windowSizeHandler);
-    };
-  }, [windowSize]);
-
-
-
-  useEffect(() => {
 
     if (aRoute?.length < 1) {
       setARoute(localStorage.getItem('route')?.split(','))
@@ -126,11 +101,10 @@ export const RutArq = () => {
       <div className="grafoContainer" style={{left: '50%', position: 'absolute', transform: 'translate(-50%, 0)'}}>
         <SigmaContainer style={sigmaStyle} settings={settings}>
           <LoadGraph />
-          <ControlsContainer position={"bottom-right"}>
+          <ControlsContainer position={"top-left"}>
           <ZoomControl />
           <FullScreenControl />
           </ControlsContainer>
-          <ControlsContainer position={"top-right"}></ControlsContainer>
         </SigmaContainer>
       </div>            
       <Route route={aRoute}/>
